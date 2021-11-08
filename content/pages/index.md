@@ -76,7 +76,7 @@ sections:
         label: View all
         url: /
         style: primary
-        iconPosition: left
+        iconPosition: right
     posts:
       - content/pages/blog/post-four.md
       - content/pages/blog/post-three.md
