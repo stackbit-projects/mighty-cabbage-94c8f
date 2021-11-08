@@ -76,6 +76,7 @@ sections:
         label: View all
         url: /
         style: primary
+        iconPosition: left
     posts:
       - content/pages/blog/post-four.md
       - content/pages/blog/post-three.md
@@ -101,7 +102,9 @@ sections:
         fontWeight: 400
         fontStyle: normal
         textAlign: center
-        margin: ["mt-0", "mb-12"]
+        margin:
+          - mt-0
+          - mb-12
       actions:
         justifyContent: center
     type: FeaturedPostsSection
